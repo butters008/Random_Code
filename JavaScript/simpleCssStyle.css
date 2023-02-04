@@ -1,0 +1,21 @@
+body{
+  background-color: darkcyan;
+}
+
+.headerStyle{
+  background-color: darkslategray;
+  /* text-align: center;
+  font-weight: bold; */
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#SiteHeader {
+  /* Change this for better implemtation */
+  color: aliceblue;
+  /* padding: 10; */
+
+}
