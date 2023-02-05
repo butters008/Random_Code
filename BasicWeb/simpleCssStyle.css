@@ -1,3 +1,7 @@
+:root{
+  font-family: Roboto;
+}
+
 body{
   background-color: darkcyan;
 }
@@ -7,6 +11,7 @@ body{
   /* text-align: center;
   font-weight: bold; */
   height: 80px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
