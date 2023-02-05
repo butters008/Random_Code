@@ -27,10 +27,17 @@ language to language.
 There are two type of vars, let and const (technically there is var, but that is no longer used) and there is a difference between the two type
 of vairables.  when you assign something to a const, it is constant and there cannot be another variable/value assigned to that const.  
 We write functions in const, but that will be explained more in that section. The other type is let, and these are the vars if you need values 
-or other vars assigned to this let, it can be overridden. 
+or other vars assigned to this let, it can be overridden.
+
+Variables can hold different values; int(whole numbers), floats(numbers with decimals), strings(words in ""), and boolean (true or false)
 
 Note: There cannot be two of the same let vars as well
 */
+
+const int = 3
+const float = 3.5
+const string = "This is a string"
+const boolean = false //can be assigned as true as well
 
 const trueName = "My name is Keith"
 let nickNameYoung = "My name is turd"
@@ -83,3 +90,33 @@ function basicMethod() {
 //You have to call the method to execute them
 basicMethod()
 basicMethodArrow()
+
+/* 
+Loops
+
+There are a few different types of loops within the programming sphere.  However, within this file we are only going to focus on two types of loops.
+The for loop and the while loop.  The most common type of loop, in my opinion, would be the for loop.  For loops will be easier to implement, 
+test, and preferred for reading through arrays.
+*/
+
+let valueToBeAddedInLoop = 5
+for (let i = 0; i < 5; i++) { 
+  valueToBeAddedInLoop *= 2
+  console.log("In Loop result " + valueToBeAddedInLoop)
+  console.log("incrementor " + i)
+}
+
+console.log(valueToBeAddedInLoop)
+
+let stopWhileLoop = false
+let countToZero = 5
+while (!stopWhileLoop) { 
+  console.log("Inside the while loop")
+  countToZero--
+  if (countToZero == 0) {
+    console.log("Stopping the while loop")
+    stopWhileLoop = true
+  }
+}
+
+console.log("Outside the while loop")

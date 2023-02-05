@@ -16,3 +16,5 @@ practice coding late a night. I do not want to troubleshoot issues on the repo f
 Right now, no backend JS is set up.
 
 ### Python
+
+Just trying to keep up what I know with that language
