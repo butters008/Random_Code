@@ -1,0 +1,59 @@
+:root{
+  font-family: Roboto;
+}
+
+body{
+  background-color: darkcyan;
+}
+
+.headerStyle{
+  background-color: darkslategray;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#SiteHeader {
+  /* Change this for better implemtation */
+  color: aliceblue;
+  /* padding: 10; */
+
+}
+
+nav{
+  /* text-align: center; */
+  background-color: darkslategray;
+/* flex: 1; */
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: darkslategray;
+  /* width: 100%; */
+}
+
+nav > ul > li {
+  display: inline;
+  float: left;
+  
+}
+
+.navbar-button{
+  display: block;
+  padding: 15px;
+  background-color: #dddddd;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.selected{
+  background-color: aqua;
+  display: block;
+  padding: 15px;
+  /* border: 2px solid black; */
+}

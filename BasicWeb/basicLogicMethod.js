@@ -26,3 +26,17 @@ const whatIsInArrow = () => {
 What is the difference between the arrow method/function and using the keyword function.  At the moment of learning web programming...nothing.
 There will be more advance differences laters
 */
+
+
+
+/*
+I am going to try and make something that could be used in a real world scenario.  I am going to make
+*/
+const param = true;
+
+const executeMethod = (param) => { 
+  if (param) { 
+    console.log("Test")
+  }
+}
+// executeMethod(param)
