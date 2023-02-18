@@ -1,49 +1,62 @@
-:root{
+:root {
   font-family: Roboto;
 }
 
-body{
+body {
   background-color: darkcyan;
+  width: 85%;
+  margin: auto;
 }
 
-.headerStyle{
+.headerStyle {
   background-color: darkslategray;
-  height: 80px;
+  height: 120px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 #SiteHeader {
   /* Change this for better implemtation */
   color: aliceblue;
   /* padding: 10; */
-
 }
 
-nav{
+nav {
   /* text-align: center; */
   background-color: darkslategray;
-/* flex: 1; */
+  /* flex: 1; */
 }
 
-nav > ul {
+/* nav > ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: darkslategray;
-  /* width: 100%; */
+
 }
 
 nav > ul > li {
   display: inline;
   float: left;
-  
+} */
+
+.navUL {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: darkslategray;
+  width: 100%;
+  overflow: hidden;
 }
 
-.navbar-button{
+.navLI {
+  display: inline;
+  float: left;
+}
+
+.navbar-button {
   display: block;
   padding: 15px;
   background-color: #dddddd;
@@ -51,7 +64,7 @@ nav > ul > li {
   border-right: 2px solid black;
 }
 
-.selected{
+.selected {
   background-color: aqua;
   display: block;
   padding: 15px;
